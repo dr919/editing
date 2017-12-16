@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>会腾后台-受邀者管理</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css"  href="css/reset.css">
+  <link rel="stylesheet" type="text/css"  href="css/jquery-ui.min.css">
+  <link rel="stylesheet" type="text/css"  href="css/editing-questionnaire.css">
+  <!--日期时间-->
+  <link rel="stylesheet" type="text/css" href="css/datedropper.css">
+  <link rel="stylesheet" type="text/css" href="css/timedropper.min.css">
+
+
+  </head>
+
+<body>
+  <div id="section">
+    <!-- header -->
+    <div id="header">
+      <div class="hui">
+        <img src="images/hui.jpg" alt=""></div>
+      <div class="logo">
+        <h1 class="f_left">
+          <a href="#">
+            <img src="images/logo.png" alt=""></a>
+        </h1>
+        <div class="f_right logo_r">
+          <ul class="logo_r_show">
+            <li class="search">
+              <p>
+                <span class="f_left">受邀者</span>
+                <input class="f_left" type="text" > <i></i>
+              </p>
+            </li>
+            <li class="h_qiandao">
+              <a href="#">微信签到</a>
+            </li>
+            <li class="prompt">
+              <a href="#">
+                <span>0</span>
+              </a>
+            </li>
+            <li class="help">帮助与文档</li>
+            <li class="tel">18621589099</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div id="content" class="clearfix">
+      <!-- 左边导航 -->
+      <div class="c_left">
+        <ul class="c_left_nav f_left">
+          <li class="current" title="活动">
+            <img src="images/icon6.png" alt=""></li>
+          <li title="应用">
+            <img src="images/icon7.png" alt=""></li>
+          <li title="联系人">
+            <img src="images/icon8.png" alt=""></li>
+          <li title="供应商">
+            <img src="images/icon9.png" alt=""></li>
+          <li title="账户">
+            <img src="images/icon10.png" alt=""></li>
+        </ul>
+
+        <div class="f_nav f_left">
+          <div class="nav_two_list">
+            <h2>活动</h2>
+            <div class="nav_show">
+              <dl class="nav_list ">
+                <dt>
+                  <h3>概览</h3>
+                </dt>
+                <dd>
+                  <ul class="l_fnav">
+                    <li class="current">仪表盘</li>
+                    <li>活动信息</li>
+                    <li>预览</li>
+                    <li>快速访问</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>网站</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>中文活动网站</li>
+                    <li>英文活动网站</li>
+                    <li>手机微网站</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>注册流程</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>配置参会者类型</li>
+                    <li>项目及费用</li>
+                    <li>配置注册流程</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>现场设置</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>大会签到</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="nav_two_list">
+            <h2>应用中心</h2>
+            <div class="nav_show">
+              <dl class="nav_list ">
+                <dt>
+                  <h3>概览</h3>
+                </dt>
+                <dd>
+                  <ul class="l_fnav">
+                    <li class="current">仪表盘</li>
+                    <li>活动信息</li>
+                    <li>预览</li>
+                    <li>快速访问</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>网站</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>中文活动网站</li>
+                    <li>英文活动网站</li>
+                    <li>手机微网站</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>注册流程</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>配置参会者类型</li>
+                    <li>项目及费用</li>
+                    <li>配置注册流程</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>现场设置</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>大会签到</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="nav_two_list">
+            <h2>联系人</h2>
+            <div class="nav_show">
+              <dl class="nav_list ">
+                <dt>
+                  <h3>概览</h3>
+                </dt>
+                <dd>
+                  <ul class="l_fnav">
+                    <li class="current">仪表盘</li>
+                    <li>活动信息</li>
+                    <li>预览</li>
+                    <li>快速访问</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>网站</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>中文活动网站</li>
+                    <li>英文活动网站</li>
+                    <li>手机微网站</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>注册流程</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>配置参会者类型</li>
+                    <li>项目及费用</li>
+                    <li>配置注册流程</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>现场设置</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>大会签到</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="nav_two_list">
+            <h2>供应商</h2>
+            <div class="nav_show">
+              <dl class="nav_list ">
+                <dt>
+                  <h3>概览</h3>
+                </dt>
+                <dd>
+                  <ul class="l_fnav">
+                    <li class="current">仪表盘</li>
+                    <li>活动信息</li>
+                    <li>预览</li>
+                    <li>快速访问</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>网站</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>中文活动网站</li>
+                    <li>英文活动网站</li>
+                    <li>手机微网站</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>注册流程</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>配置参会者类型</li>
+                    <li>项目及费用</li>
+                    <li>配置注册流程</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>现场设置</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>大会签到</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="nav_two_list">
+            <h2>账户</h2>
+            <div class="nav_show">
+              <dl class="nav_list ">
+                <dt>
+                  <h3>概览</h3>
+                </dt>
+                <dd>
+                  <ul class="l_fnav">
+                    <li class="current">仪表盘</li>
+                    <li>活动信息</li>
+                    <li>预览</li>
+                    <li>快速访问</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>网站</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>中文活动网站</li>
+                    <li>英文活动网站</li>
+                    <li>手机微网站</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>注册流程</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>配置参会者类型</li>
+                    <li>项目及费用</li>
+                    <li>配置注册流程</li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl class="nav_list">
+                <dt>
+                  <h3>现场设置</h3>
+                </dt>
+                <dd>
+                  <ul>
+                    <li>大会签到</li>
+                  </ul>
+                </dd>
+              </dl>
+            </div>
+          </div>
+
+          <div class="pack"></div>
+        </div>
+      </div>
+
+      <!-- 主要模块 -->
+      <div class="c_right">
+        <div class="main">
+          <div class="invitee_all">
+            <h3 class="con_tit"> <i></i>
+              会议满意度调查问卷
+            </h3>
+            <!---- 编辑问卷主要模块 ---->
+            <div class="invitee_show clearfix ">
+              <!-- 问卷状态导航 -->
+              <div class="editing_staus_bar">
+                <span class="f_left back_btn">返回列表</span>
+                <ul class="show_staus">
+                  <li class="f_left current">编辑问卷</li>
+                  <li class="f_left"></li>
+                  <li class="f_left">发布收集</li>
+                  <li class="f_left"></li>
+                  <li class="f_left">统计分析</li>
+                </ul>
+                <span class="f_right view_btn">问卷预览</span>
+              </div>
+
+              <!-- 编辑 -->
+              <div class="editing_content clearfix">
+                <!-- 1.左边添加组件 -->
+                <div class="formBuilder_edit">
+                  <ul class="utilityCol utilityColFirst clearfix">
+                    <li class="utility ui-draggable" id="id_singleLine" title="拖动到右侧">
+                      <span class="formOption formOption_text"></span>
+                      <span class="title">单行文本</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_multiple"  title="拖动到右侧">
+                      <span class="formOption formOption_multiple"></span>
+                      <span class="title">多行文本</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_radio"  title="拖动到右侧">
+                      <span class="formOption formOption_radio"></span>
+                      <span class="title">单选</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_checkBox"  title="拖动到右侧">
+                      <span class="formOption formOption_checkbox"></span>
+                      <span class="title">多选</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_pictureRadio"  title="拖动到右侧">
+                      <span class="formOption formOption_pictureRadio"></span>
+                      <span class="title">图片单选</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_pictureCheckbox"  title="拖动到右侧">
+                      <span class="formOption formOption_pictureCheckbox"></span>
+                      <span class="title">图片多选</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_dropDown"  title="拖动到右侧">
+                      <span class="formOption formOption_dropDown"></span>
+                      <span class="title">下拉</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_fileUpload"  title="拖动到右侧">
+                      <span class="formOption formOption_upload"></span>
+                      <span class="title">文件上传</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_date"  title="拖动到右侧">
+                      <span class="formOption formOption_data"></span>
+                      <span class="title">日期</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_time" title="拖动到右侧">
+                      <span class="formOption formOption_time"></span>
+                      <span class="title">时间</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_picture" title="拖动到右侧">
+                      <span class="formOption formOption_picture"></span>
+                      <span class="title">图文描述</span>
+                    </li>
+                    <li class="utility ui-draggable" id="id_section" title="拖动到右侧">
+                      <span class="formOption formOption_section"></span>
+                      <span class="title">分割线</span>
+                    </li>
+                  </ul>
+                </div>
+                <!-- 2.中间预览 -->
+                <div class="editing_view_con">
+                  <div class="formBuilder_example">
+                    <div class="formBuilder_example_form">
+                        <div class="form_title_bg"><img src="images/form_header_img.png" alt=""></div>
+                        <div class="form_title">
+                          <h2>会议满意度调查问卷一</h2>
+                          <div>欢迎填写此调查问卷，本问卷研究的目的是欢迎填写此调查问卷，本问卷研究的目的是欢迎填写此调查问卷。</div>
+                        </div>
+                        <div class="formBuilder_main">
+                          <ul class="form_component clearfix ui-sortable ui-droppable">
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="must_title must_block">*</span>
+                              <span class="title">单行文本</span>
+                              <div>
+                                <input class="commonInput cl_singleLine" type="text" value="" disabled="true" >
+                                <p class="hint_section">提示：这是提示文字</p>
+                              </div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">文件上传</span>
+                              <div>
+                                <input class="commonInput cl_singleLine" type="file" value="" disabled="true"></div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">日期</span>
+                              <div>
+                                <input class="commonInput cl_singleLine" type="text" id="pickdate" ></div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">图片描述</span>
+                              <div>
+                                <div class="img_describe"><img src="images/img_describe.png" alt=""></div>
+                              </div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">分割线</span>
+                              <div>
+                                <div class="halving_line"></div>
+                              </div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">时间</span>
+                              <div>
+                                <input class="commonInput cl_singleLine" type="text" id="picktime" value="" disabled="true"></div>
+                                <span class="deleteButton" onclick="deleteThis(this)"></span>
+                                <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <!-- 图片单选 -->
+                            <li class="utility ui-draggable" style="display: list-item; position: relative; z-index: 10;">
+                              <span class="title">图片单选</span>
+                              <div>
+                                <ul class="radio_img_ul clearfix">
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="radio" name="radioImg" value="0" disabled="true">
+                                    <label class="optionValue">选项1</label></p>
+                                  </li>
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="radio" name="radioImg" value="1" disabled="true">
+                                    <label class="optionValue">选项2</label></p>
+                                  </li>
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="radio" name="radioImg" value="2" disabled="true">
+                                    <label class="optionValue">选项3</label></p>
+                                  </li>
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="radio" name="radioImg" value="3" disabled="true">
+                                    <label class="optionValue">选项4</label></p>
+                                  </li>
+                                </ul>
+                                 <p class="hint_section">提示：这是提示文字</p>
+                              </div>
+                              <span class="deleteButton" onclick="deleteThis(this)"></span>
+                              <span class="cloneButton" onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item; position: relative; z-index: 10;">
+                              <span class="title">图片多选</span>
+                              <div>
+                                <ul class="radio_img_ul clearfix">
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="checkbox" name="radio26" value="0" disabled="true">
+                                    <label class="optionValue">选项1</label></p>
+                                  </li>
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="checkbox" name="radio26" value="1" disabled="true">
+                                    <label class="optionValue">选项2</label></p>
+                                  </li>
+                                  <li class="radio_img_list f_left">
+                                    <div class="form_radio_img"></div>
+                                    <p><input type="checkbox" name="radio26" value="2" disabled="true">
+                                    <label class="optionValue">选项3</label></p>
+                                  </li>
+                                </ul>
+                                <p class="hint_section">提示：这是提示文字</p>
+                              </div>
+                              <span class="deleteButton" onclick="deleteThis(this)"></span>
+                              <span class="cloneButton" onclick="cloneThis(this)"></span>
+                            </li>
+
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">下拉菜单</span>
+                              <div>
+                                <select class="commonInput input" disabled="true">
+                                  <option name="0">1</option>
+                                  <option>2</option>
+                                </select>
+                              </div>
+                              <span class="deleteButton" onclick="deleteThis(this)"></span>
+                              <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">单选</span>
+                              <div>
+                                <ul class="optionGarden ui-sortable">
+                                  <li class="optionsLine medium">
+                                    <input type="radio" name="radio26" value="0" disabled="true">
+                                    <label class="optionValue">选项1</label>
+                                  </li>
+                                  <li class="optionsLine medium">
+                                    <input type="radio" name="radio26" value="1" disabled="true">
+                                    <label class="optionValue">选项2</label>
+                                  </li>
+                                  <li class="optionsLine medium">
+                                    <input type="radio" name="radio26" value="2" disabled="true">
+                                    <label class="optionValue">选项3</label>
+                                  </li>
+                                </ul>
+                              </div>
+                              <span class="deleteButton" onclick="deleteThis(this)"></span>
+                              <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                              <span class="title">下拉菜单</span>
+                              <div>
+                                <select class="commonInput input" disabled="true">
+                                  <option name="0">1</option>
+                                  <option>2</option>
+                                </select>
+                              </div>
+                              <span class="deleteButton" onclick="deleteThis(this)"></span>
+                              <span class="cloneButton"  onclick="cloneThis(this)"></span>
+                            </li>
+                            <li class="utility ui-draggable" style="display: list-item;">
+                                <button class="next_page_btn">下一页</button>
+                            </li>
+
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="formBuilder_example_b">
+                      <div class="formBuilder_example_btn">
+                        <button class="f_left">保存</button>
+                        <button class="f_left">发布</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- 3.右边设置 -->
+                <div class="editing_right_reset">
+                  <div class="invitee_b">
+                    <div class="invitee_b_tit">
+                      <span class="current">问卷设置</span>
+                      <span class="last_span ">题目设置</span>
+                      <span class="last_span">外观设置</span>
+                    </div>
+                    <div class="initee_box" id="initee_box">
+                      <!-- 31题目设置 -->
+                      <div class="invitee_b_con" style="display: block;">
+                        <h6>基础设置</h6>
+                        <div class="found_con">
+                          <div class="found_list clearfix">
+                            <span>*问卷标题：</span>
+                            <input class="text" id="tit_text1" type="text">
+                          </div>
+                          <div class="found_list clearfix">
+                            <span>描述说明：</span>
+                            <textarea class="text textarea" id="tit_text2"  name="" id="" ></textarea>
+                          </div>
+                        </div>
+
+                        <h6>发布设置</h6>
+                        <div class="found_con">
+                          <div class="found_list clearfix">
+                            <span>发布状态：</span>
+                            <div class="f_left infor_list">
+                              <p class="f_left check_p">
+                                <input class="input_top" type="radio" name="val1" value="启动">
+                                <span>启动</span>
+                              </p>
+                              <p class="f_left check_p check_p_icon" title="若设置为停止发布，此问卷将停止收集问卷，当前正在填写的问卷也无法成功提交。">
+                                <input class="input_top" type="radio" name="val1" value="停止">
+                                <span>停止</span>
+                              </p>
+                            </div>
+                          </div>
+                          <!-- 目标用户 -->
+                          <div class="found_list clearfix">
+                            <span>目标用户：</span>
+                            <div class="f_left infor_list">
+                              <p class="f_left check_p check_p_icon form_range_p" title="若设置为停止发布，此问卷将停止收集问卷，当前正在填写的问卷也无法成功提交。">
+                                <input class="input_top" type="checkbox" name="textbox" >
+                                <span>允许范围</span>
+                              </p>
+                            </div>
+                            <div class="form_range">
+                              <div class="hint clearfix">
+                                <p class="f_left check_p">
+                                  <input class="input_top" type="radio" name="val2" value="按注册通道">
+                                  <span>按注册通道</span>
+                                </p>
+                              </div>
+                              <div class="hint">
+                                <select class="text" name="name">
+                                  <option id="selectId1" value="-1">受邀者-所有受邀者</option>
+                                  <option value="受邀者-已付款">参会者-所有参会者</option>
+                                  <option value="受邀者-已付款">受邀者-注册完整</option>
+                                  <option value="受邀者-已付款">受邀者-已付款</option>
+                                  <option value="受邀者-已付款">参会者-会议已签到</option>
+                                </select>
+                              </div>
+                              <div class="hint">
+                                <div class="hatchway_list">
+                                  <p class="check_p clearfix">
+                                    <input class="input_top" type="checkbox" name="textbox">
+                                    <span>通道一</span>
+                                  </p>
+                                  <p class="clearfix check_p">
+                                    <input class="input_top" type="checkbox" name="textbox">
+                                    <span>通道二</span>
+                                  </p>
+                                  <p class="clearfix check_p">
+                                    <input class="input_top" type="checkbox" name="textbox">
+                                    <span>通道三</span>
+                                  </p>
+                                </div>
+                              </div>
+                              <div class="hint clearfix">
+                                <p class="f_left check_p check_p_icon" title="若设置为停止发布，此问卷将停止收集问卷，当前正在填写的问卷也无法成功提交。">
+                                  <input class="input_top" type="radio" name="val2" value="按手机号限制">
+                                  <span>按手机号限制</span>
+                                </p>
+                              </div>
+                              <div class="hint">
+                                <input class="text" type="file">
+                              </div>
+                              </div>
+                            </div>
+                          <div class="found_list clearfix">
+                            <span>分享logo：</span>
+                            <input class="file" type="file">
+                            <p class="hint font_blue">推荐尺寸：150*150（像素）</p>
+                            <p class="hint font_blue">图片格式：png、jpg、bmp（小于1MB）</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- 32问卷设置 -->
+                      <div class="invitee_b_con invitee_b_con2" style="display:none ;">
+                        <div class="module_edit_box">
+                         <!-- 1单行文本设置 -->
+                          <div id="dir1" class="module_reset"  style="display: none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top"  onclick="setMust(this);" name="must"  type="checkbox"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea"  name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span>文本框宽度：</span>
+                                <select class="text" name="inputWide" onchange="inputSize(this);">
+                                  <option value="2">标准尺寸</option>
+                                  <option value="1">小尺寸</option>
+                                  <option value="3">大尺寸</option>
+                                </select>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span><input class="f_left input_top"  name="wordLimit"  onclick="wordLimit(this);" type="checkbox">字数限制：</span>
+                                <input class="text"  name="wordLimit2" onkeyup="value=value.replace(/[^\d]/g,'');wordLimit2(this);"  type="text"  style="width: 53%;">以内
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text"  name="hint"  onkeyup="setHint(this);" type="text">
+                              </div>
+                            </div>
+                          </div>
+                         <!-- 2多行文本设置 -->
+                          <div class="module_reset edit_number"  id="dir2"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span>文本框大小：</span>
+                                <select class="text"  name="inputWide" onchange="selectSize(this);">
+                                  <option id="selectId1" value="2">标准尺寸</option>
+                                  <option value="1">小尺寸</option>
+                                  <option value="3">大尺寸</option>
+                                </select>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text"  name="hint"  onkeyup="setHint(this);" type="text">
+                              </div>
+                            </div>
+                          </div>
+                            <!-- 3单选设置 -->
+                          <div class="module_reset edit_number"  id="dir3"  style="display: none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="在这里编辑你的问题" name="title"  onkeyup="setTitle(this);" ></textarea>
+                              </div>
+                            </div>
+                            <h6>选项设置</h6>
+                            <div class="found_con">
+                              <div class="editChoiceRadio">
+                                <ul class="editradio_list">
+
+                                </ul>
+                              </div>
+                            </div>
+                            <h6>选项布局</h6>
+                            <div class="found_con">
+                              <div class="found_list  edit_sort clearfix">
+                                <span class="f_left editlayout_x ">横排</span><span class="f_left editlayout_y editlayout_current">竖排</span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 4多选设置 -->
+                          <div class="module_reset edit_singleLine" id="dir4"  style="display:none;">
+                            多选设置
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea"  name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>选项设置</h6>
+                            <div class="found_con">
+                              <div class="editChoiceCheckbox">
+                                <ul class="editcheckbox_list">
+
+                                </ul>
+                              </div>
+                            </div>
+                            <h6>选项布局</h6>
+                            <div class="found_con">
+                              <div class="found_list  edit_sort clearfix">
+                                <span class="f_left editlayout_x ">横排</span><span class="f_left editlayout_y editlayout_current">竖排</span>
+                              </div>
+                            </div>
+                            <h6>选项控制</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_left input_top" type="checkbox" name="check_option1" onclick="checkbox_Must1(this)"><i class="f_left" >设至少选：</i></span>
+                                <input class="text text_width" type="text" onkeyup="value=value.replace(/[^\d]/g,'');checkbox_wordLimit1(this)" name="check_must1">
+                                <i style="margin-left:5px;"> 项</i>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span><input class="f_left input_top" type="checkbox"  name="check_option2" onclick="checkbox_Must2(this)"><i class="f_left" >设至多选：</i></span>
+                                <input class="text text_width" type="text" onkeyup="value=value.replace(/[^\d]/g,'');checkbox_wordLimit2(this)"  name="check_must2">
+                                <i style="margin-left:5px;"> 项</i>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text"  name="hint"  onkeyup="setHint(this);" >
+                              </div>
+                            </div>
+                          </div>
+                           <!-- 5图片单选设置 -->
+                          <div class="module_reset edit_singleLine"  id="dir5"  style="display:none;" >
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox"  onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="图片单选" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>选项设置</h6>
+                            <div class="found_con">
+                              <div class="editChoiceCheckbox">
+                                <ul class="editcheckbox_list">
+
+                                </ul>
+                              </div>
+                            </div>
+                            <h6>选项布局</h6>
+                            <div class="found_con">
+                              <div class="found_list  edit_sort clearfix">
+                                <span class="f_left editlayout_x editlayout_current">横排</span><span class="f_left editlayout_y ">竖排</span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 6图片多选设置 -->
+                          <div class="module_reset edit_singleLine"  id="dir6"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="图片多选" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>选项设置</h6>
+                            <div class="found_con">
+                              <div class="editChoiceCheckbox">
+                                <ul class="editcheckbox_list">
+
+                                </ul>
+                              </div>
+                            </div>
+                            <h6>选项布局</h6>
+                            <div class="found_con">
+                              <div class="found_list  edit_sort clearfix">
+                                <span class="f_left editlayout_x ">横排</span><span class="f_left editlayout_y editlayout_current">竖排</span>
+                              </div>
+                            </div>
+                            <h6>选项控制</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_left input_top" type="checkbox" name="check_option1" onclick="checkbox_Must1(this)"><i class="f_left" >设至少选：</i></span>
+                                <input class="text text_width" type="text" onkeyup="value=value.replace(/[^\d]/g,'');checkbox_wordLimit1(this)" name="check_must1">
+                                <i style="margin-left:5px;"> 项</i>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span><input class="f_left input_top" type="checkbox"  name="check_option2" onclick="checkbox_Must2(this)"><i class="f_left" >设至多选：</i></span>
+                                <input class="text text_width" type="text" onkeyup="value=value.replace(/[^\d]/g,'');checkbox_wordLimit2(this)"  name="check_must2">
+                                <i style="margin-left:5px;"> 项</i>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 7下拉设置 -->
+                          <div class="module_reset edit_singleLine"  id="dir7"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="下拉菜单" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="editChoiceRadio">
+                                <ul class="editradio_list">
+                                  <li class="editradio_item" linenum="0">
+                                    <input class="editstatus" type="radio" name="radio_com1" onclick="select_setSelClick(this);">
+                                    <textarea class="edittext textarea input_textarea" dir="选项1" onkeyup="select_setSelValue(this);">选项1</textarea>
+                                    <p class="addButton" onclick="select_addOption(this);"></p>
+                                    <p class="removeButton" onclick="select_deleteSelOption(this);"></p>
+                                  </li>
+                                  <li class="editradio_item" linenum="1">
+                                    <input class="editstatus" type="radio" name="radio_com1" onclick="select_setSelClick(this);">
+                                    <textarea class="edittext textarea input_textarea" dir="选项2" onkeyup="select_setSelValue(this);">选项2</textarea>
+                                    <p class="addButton" onclick="select_addOption(this);"></p>
+                                    <p class="removeButton" onclick="select_deleteSelOption(this);"></p>
+                                  </li>
+                                  <li class="editradio_item" linenum="2">
+                                    <input class="editstatus" type="radio" name="radio_com1" onclick="select_setSelClick(this);">
+                                    <textarea class="edittext textarea input_textarea" dir="选项3" onkeyup="select_setSelValue(this);">选项3</textarea>
+                                    <p class="addButton" onclick="select_addOption(this);"></p>
+                                    <p class="removeButton" onclick="select_deleteSelOption(this);"></p>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);" >
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 8文件上传设置 -->
+                          <div class="module_reset edit_singleLine" id="dir8"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="文件上传" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                  <p class="f_left hint_section">备注：</p><div class="f_left remake hint_section">单个文件上传大小不超过20M；<br> 账户默认总储存空间大小为2G；<br> 若需增大存储空间，请联系客服。</div>
+                              </div>
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);" >
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 9日期设置 -->
+                          <div class="module_reset edit_singleLine"  id="dir9"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" name="title"  onkeyup="setTitle(this);" placeholder="日期"></textarea>
+                              </div>
+                            </div>
+
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);" >
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 10时间设置 -->
+                          <div class="module_reset edit_singleLine"  id="dir10"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span><input class="f_right input_top" type="checkbox" onclick="setMust(this);" name="must"><i class="f_left" >是否必答</i></span>
+                              </div>
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="时间" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+
+                            <h6>答题设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <span>提示文字：</span>
+                                <input class="text" type="text" name="hint"  onkeyup="setHint(this);">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 11图文描述 -->
+                          <div class="module_reset edit_singleLine"  id="dir11"  style="display:none;">
+                            <h6>题目设置</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="图文描述" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                              <div class="found_list clearfix">
+                                <p class="f_left check_p check_p_icon form_range_p" title="题目图片：插入一张图片显示 大小不超过2M 支持jpg、png、bmp、gjf格式">
+                                  <input class="input_top" type="checkbox" name="textbox" onclick="setMust(this);" name="must">
+                                  <span>插入图片</span>
+                                </p>
+                              </div>
+                              <div class="found_list clearfix">
+                                <input type="file">
+                              </div>
+                            </div>
+                          </div>
+                          <!-- 12分割线 -->
+                          <div class="module_reset edit_singleLine"  id="dir12"  style="display:none;">
+                            <h6>分割标题</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea"  placeholder="分割线标题" name="title"  onkeyup="setTitle(this);"></textarea>
+                              </div>
+                            </div>
+                            <h6>描述文字</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <textarea class="text textarea" placeholder="分割描述内容"  name="hint"  onkeyup="setHint(this);"></textarea>
+                              </div>
+                            </div>
+
+                            <h6>标题对齐方式</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <p class="f_left check_p "><input class="f_left input_top" name="titalignment" value="左对齐" type="radio"><span class="f_left">左对齐</span></p>
+                                <p class="f_left check_p "><input class="f_left input_top" name="titalignment"  value="居中对齐" type="radio"><span class="f_left">居中对齐</span></p>
+                                <p class="f_left check_p "><input class="f_left input_top" name="titalignment"  value="右对齐" type="radio"><span class="f_left">右对齐</span></p>
+                              </div>
+                            </div>
+                            <h6>描述对齐方式</h6>
+                            <div class="found_con">
+                              <div class="found_list clearfix">
+                                <p class="f_left check_p "><input class="f_left input_top" name="alignment" value="左对齐" type="radio"><span class="f_left">左对齐</span></p>
+                                <p class="f_left check_p "><input class="f_left input_top" name="alignment"  value="居中对齐" type="radio"><span class="f_left">居中对齐</span></p>
+                                <p class="f_left check_p "><input class="f_left input_top" name="alignment"  value="右对齐" type="radio"><span class="f_left">右对齐</span></p>
+                              </div>
+                            </div>
+                          </div>
+						  <!-- 选择组件提示 -->
+                          <div class="module_reset edit_singleLine"  id="dir13"  style="display:block;">
+                            <p class="form_componentEdit_tips" style="display: block;">请先选择组件</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- 33外观设置 -->
+                      <div class="invitee_b_con invitee_b_con2" style="display: none;">
+                        <div class="found_con">
+                          <div class="found_list clearfix">
+                            <span>主题模板：</span>
+                            <select class="text" name="name">
+                              <option id="selectId1" value="模板一">模板一</option>
+                              <option value="模板二">模板二</option>
+                              <option value="模板三">模板三</option>
+                              <option value="模板四">模板四</option>
+                            </select>
+                            <div class="found_list">
+                              <div class="template_bgcolor form_margin_left">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="found_list clearfix">
+                            <span>背景图片：</span>
+                             <div class="f_left infor_list">
+                              <p class="f_left check_p form_range_p">
+                                <input class="input_top" type="checkbox" name="bg_img" value="显示背景">
+                                <span>显示</span>
+                              </p>
+                            </div>
+                            <div class="form_range">
+                              <div class="hint">
+                                 <div class="clearfix">
+                                  <input class="file" type="file">
+                                 </div>
+                                <p class="font_blue">推荐尺寸：150*150（像素）</p>
+                                <p class="font_blue">图片格式：png、jpg、bmp（小于1MB）</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="found_list clearfix">
+                            <span>表头图片：</span>
+                             <div class="f_left infor_list">
+                              <p class="f_left check_p form_range_p">
+                                <input class="input_top" type="checkbox" name="header_img" value="显示表头">
+                                <span>显示</span>
+                              </p>
+                            </div>
+                            <div class="form_range">
+                              <div class="hint">
+                                 <div class="clearfix">
+                                  <input class="file" type="file">
+                                 </div>
+                                <p class="font_blue">推荐尺寸：150*150（像素）</p>
+                                <p class="font_blue">图片格式：png、jpg、bmp（小于1MB）</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="found_list clearfix">
+                            <span>标题和描述：</span>
+                            <div class="f_left infor_list">
+                              <p class="f_left check_p">
+                                <input class="input_top" type="radio" name="header" checked="checked" value="标题描述显示">
+                                <span>显示</span>
+                              </p>
+                              <p class="f_left check_p">
+                                <input class="input_top" type="radio" name="header" value="标题描述隐藏">
+                                <span>隐藏</span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="found_list clearfix">
+                            <span>文字大小：</span>
+                            <select class="text fontSize_change" name="name">
+                              <option id="selectId1" value="16">大</option>
+                              <option id="selectId1" value="14" selected="selected">中</option>
+                              <option id="selectId1" value="12">小</option>
+
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+
+              </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- 提示弹窗 -->
+    <div class="popup">
+        <div class="popup_show">
+          <div class="pop_tit">
+			<p class="f_left">保存提示</p>
+			<span class="f_right pop_xx"></span>
+          </div>
+          <div class="pop_con">当前编辑未保存，离开页面会导致数据丢失。确定离开此页么？</div>
+          <div class="pop_b_btn">
+            <button class="pop_btn1 current">留在此页</button>
+            <button class="pop_btn2">确定离开</button>
+          </div>
+        </div>
+    </div>
+
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/editing-questionnaire.js"></script>
+  <!--日期时间-->
+<script src="js/datedropper.min.js"></script>
+<script src="js/timedropper.min.js"></script>
+<script>
+	$("#pickdate").dateDropper({
+		animate: false,
+		format: 'Y-m-d',
+		maxYear: '2020'
+	});
+	$("#picktime").timeDropper({
+		meridians: false,
+		format: 'HH:mm',
+	});
+</script>
+</body>
+</html>
